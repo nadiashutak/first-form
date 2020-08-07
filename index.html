@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nadia's First Form</title>
+</head>
+<body>
+  <main>
+    <p>Who are you?</p>
+    <form action="#" method="get">
+      <label for="email">Email:</label>
+      <input id="email" name="email" type="email" placeholder="Input your email">
+        <br>
+        <br>
+      <label for="password">Password:</label>
+      <input id="password" name="password" type="password" placeholder="Minimum 5 characters" minlength="5">  
+        <br>
+        <br>
+      <label for="fname">First Name:</label>
+      <input id="fname" name="fname" type="text" placeholder="Input your first name">
+        <br>
+        <br>
+      <label for="lname">Last Name:</label>
+      <input id="lname" name="lname" type="text" placeholder="Input your last name">
+        <br>
+        <br>
+      <label for="age">Age:</label>
+      <input id="age" name="age" type="number" placeholder="What's your age?" step="1">
+        <br>
+        <br>
+      <p>Where are you from?</p>
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="ua">Ukraine</option>
+        <option value="ru">Russia</option>
+        <option value="us">USA</option>
+        <option value="de">Germany</option>
+        <option value="uk">England</option>
+      </select>
+        <br>
+        <br>
+      <p>What is your gender?</p>
+      <input id="male" name="gender" type="radio" value="male">
+      <label for="male">Male</label> 
+        <br>
+      <input id="female" name="gender" type="radio" value="female">
+      <label for="female">Female</label>
+        <br>
+      <input id="other" name="gender" type="radio" value="other">
+      <label for="other">Other</label>
+        <br>
+        <br>
+      <p>When where you born?</p>
+      <label for="birthday">Birthday:</label>
+      <input id="birthday" name="birthday" type="date">
+        <br>
+        <br>
+      <input id="privacy" name="privacy" type="checkbox">
+      <label for="privacy">Do you agree to our privacy policy?</label>
+        <br>
+        <br>
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+</body>
+</html>
